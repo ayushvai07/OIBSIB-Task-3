@@ -1,0 +1,91 @@
+.container {
+    max-width: 1440px;
+    height: 100vh;
+}
+
+form {
+    width: 450px;
+    height: 520px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+
+    padding: 20px;
+}
+
+form h2 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mid-sec {
+
+    margin: 30px 0;
+    display: flex;
+}
+
+
+.mid-sec p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    justify-content: center;
+
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 30px;
+    font-size: 26px;
+    border-bottom: 2px solid rgb(14, 155, 226);
+    text-align: center;
+}
+
+.type {
+    justify-content: center;
+    margin: auto;
+}
+
+.to {
+    font-size: 24px;
+}
+
+select {
+    height: 35px;
+    width: 150px;
+}
+
+.result {
+    margin: 20px 20px;
+    padding: 0px 30px;
+    width: fit-content;
+    height: 80px;
+}
+
+.result p {
+    margin: 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+#res {
+    font-size: 34px;
+}
+
+button {
+    margin: 5px;
+    height: 45px;
+    width: 150px;
+
+
+}
